@@ -1,0 +1,72 @@
+body {
+   margin: 0;
+   font-family: "Playfair Display", serif;
+
+   box-sizing: border-box;
+   &.noscroll {
+      overflow: hidden;
+   }
+}
+
+*,
+*:before,
+*:after {
+   box-sizing: border-box;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+   margin: 0;
+}
+
+h1 {
+   font-family: "Playfair Display", serif;
+}
+
+p {
+   font-family: "Raleway", sans-serif;
+   margin: 0;
+   font-variant-numeric: lining-nums;
+   font-feature-settings: "lnum";
+   -moz-font-feature-settings: "lnum=1";
+   -ms-font-feature-settings: "lnum";
+   -webkit-font-feature-settings: "lnum";
+   -o-font-feature-settings: "lnum";
+}
+
+.body {
+   position: relative;
+   margin: 0 auto;
+}
+.container {
+   max-width: 1340px;
+   padding: 0 15px;
+   margin: 0 auto;
+   @media (max-width: 1200px) {
+      padding: 0 20px;
+   }
+}
+
+button {
+   background: none;
+   padding: 0;
+   border: 0;
+}
+
+@import "blocks/vars";
+@import "blocks/header";
+@import "blocks/preview";
+@import "blocks/about";
+@import "blocks/features";
+@import "blocks/partners";
+@import "blocks/team";
+@import "blocks/reviews";
+@import "blocks/contacts";
+@import "blocks/footer";
+@import "blocks/featurescat";
+@import "blocks/catalog";
+@import "blocks/modal";
