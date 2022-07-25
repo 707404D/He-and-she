@@ -6,3 +6,6 @@
 - Адаптив до 300px
 - Анимации
 - Slider Slick
+
+
+- https://707404d.github.io/He-and-she/
