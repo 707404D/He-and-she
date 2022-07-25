@@ -8,4 +8,4 @@
 - Slider Slick
 
 
-- https://707404d.github.io/He-and-she/
+https://707404d.github.io/He-and-she/
